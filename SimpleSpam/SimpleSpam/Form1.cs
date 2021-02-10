@@ -81,7 +81,7 @@ namespace SimpleSpam
             timer1.Stop();
         }
 
-        // ... { Keylogger}
+        
         [DllImport("user32.dll")]
         static extern IntPtr SetWindowsHookEx(int idHook, LowLevelKeyboardProc callback, IntPtr hInstance, uint threadId);
 
